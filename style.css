@@ -1,0 +1,64 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+}
+
+#start-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#start-screen h1 {
+    font-size: 4rem;
+    margin: 0;
+    letter-spacing: 0.5rem;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}
+
+#start-screen p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    letter-spacing: 0.2rem;
+}
+
+#start-button {
+    margin-top: 40px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    letter-spacing: 0.1rem;
+}
+
+#start-button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#canvas-container {
+    width: 100%;
+    height: 100%;
+    display: none; /* Initially hidden */
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    display: block;
+}
