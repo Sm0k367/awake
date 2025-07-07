@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "public": true,
+  "name": "epic-tech-ai-cinematic-manifestation",
+  "builds": [
+    {
+      "src": "*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}
